@@ -1,4 +1,4 @@
-FROM haugene/transmission-openvpn:latest
+FROM nickbabenko/docker-transmission-openvpn:latest
 LABEL org.freenas.interactive="false" \
       org.freenas.version=1 \
       org.freenas.upgradeable="true" \
