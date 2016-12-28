@@ -31,21 +31,21 @@ LABEL org.freenas.interactive="false" \
           {
               \"env\": \"OPENVPN_PROVIDER\",\
               \"descr\": \"OpenVPN Provider - eg PIA\",    \
-              \"optional\": false
+              \"optional\": false					\
           },
           {
               \"env\": \"OPENVPN_CONFIG\",\
               \"descr\": \"OpenVPN Config - eg Netherlands\",    \
-              \"optional\": true
+              \"optional\": true					\
           },
           {
               \"env\": \"OPENVPN_USERNAME\",\
               \"descr\": \"OpenVPN Username to authenticate the provider\",    \
-              \"optional\": false
+              \"optional\": false					\
           },
           {
               \"env\": \"OPENVPN_PASSWORD\",\
               \"descr\": \"OpenVPN Password to authenticate the provider\",    \
-              \"optional\": false
+              \"optional\": false					\
           }
       ]"
