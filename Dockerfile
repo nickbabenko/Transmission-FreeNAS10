@@ -27,25 +27,25 @@ LABEL org.freenas.interactive="false" \
               \"env\": \"TZ\",						\
               \"descr\": \"Timezone - eg Europe/London\",		\
               \"optional\": true					\
-          },
+          },								\
           {
               \"env\": \"OPENVPN_PROVIDER\",\
               \"descr\": \"OpenVPN Provider - eg PIA\",    \
               \"optional\": false					\
-          },
+          },								\
           {
               \"env\": \"OPENVPN_CONFIG\",\
               \"descr\": \"OpenVPN Config - eg Netherlands\",    \
               \"optional\": true					\
-          },
+          },								\
           {
               \"env\": \"OPENVPN_USERNAME\",\
               \"descr\": \"OpenVPN Username to authenticate the provider\",    \
               \"optional\": false					\
-          },
+          },								\
           {
               \"env\": \"OPENVPN_PASSWORD\",\
               \"descr\": \"OpenVPN Password to authenticate the provider\",    \
               \"optional\": false					\
-          }
+          }								\
       ]"
